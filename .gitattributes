@@ -1,0 +1,2 @@
+# pattern for locking with git-crypt
+# filepattern filter=git-crypt diff=git-crypt
