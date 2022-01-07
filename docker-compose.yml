@@ -1,0 +1,14 @@
+services:
+  backend:
+    image: kevinnls/node_non-root
+    user: node
+    volumes:
+      - ./backend:/app
+      - node_modules:/app/node_modules
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    command: "npm start"
+
+volumes:
+  node_modules:
