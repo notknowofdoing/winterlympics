@@ -1,0 +1,27 @@
+{
+  "name": "nkd-winterlympics-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "nodemon -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/notknowofdoing/winterlympics.git"
+  },
+  "author": "notknowofdoing",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/notknowofdoing/winterlympics/issues"
+  },
+  "homepage": "https://github.com/notknowofdoing/winterlympics#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
